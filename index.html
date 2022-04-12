@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora propinas</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div id="containerProyect">
+        <div id="containerApp">
+            <h1>Calculadora de propinas</h1>
+            <div id="containerSeccion">
+                <div class="fieldsInputs">
+                    <input id="ip1" class="inputs" type="number" placeholder="Valor de la cuenta">
+                </div>
+                <div class="fieldsInputs">
+                    <input id="ip2" class="inputs" type="number" placeholder="Porcentaje de propina">
+                </div>
+                <div id="containerPrincipalButton">
+                    <button id="calculateTotal" onclick="validacion()" >Calcular total</button>
+                </div>
+            </div>
+            <div id="containerResult" class="panelResultadosOculto">
+                <div id="titleResult"></div>
+                <div id="listResult">
+                    <div class="justi">
+                        <label for="">Valor inicial: </label>
+                        <input class="spacing"type="text">
+                    </div>
+                    <div class="justi">
+                        <label for="">Valor propina: </label>
+                        <input class="spacing2"type="text">
+                    </div>
+                    <div class="justi">
+                        <label for="">Valor total: </label>
+                        <input class="spacing3"type="text">
+                    </div>
+                    <div class="ajusteBoton">
+                        <button id="clean" onclick="cleanSpace()">Limpiar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

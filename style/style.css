@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+#containerProyect{
+    height: 100vh;
+    width: 100vw;
+    background: rgba(31, 161, 161, 0.932);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#containerApp{
+    height: 80%;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+}
+
+#containerSeccion{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.fieldsInputs{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs{
+    border-radius: 10px;
+    height: 30px;
+    width: 50%;
+    padding-left: 10px;
+    border-color: transparent;
+    outline: none;
+}
+
+.inputs:focus{
+    outline: solid rgb(167, 164, 164);
+}
+
+
+#containerPrincipalButton{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculateTotal{
+    height: 20%;
+    width: 20%;
+    border-radius: 10px;
+    border-color: transparent;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#containerResult{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+    flex-flow: column;
+    background: rgba(31, 161, 161, 0.932);
+}
+
+#titleResult{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+}
+
+#listResult{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.justi{
+    font-size: larger;
+    margin-bottom: 15px;
+}
+
+.spacing{
+    text-align: center;
+    width: 50%;
+    font-weight: bolder;
+    font-size: larger;
+    border: none;
+    background: transparent;
+    margin-left: 16px;
+}
+
+.spacing2{
+    text-align: center;
+    width: 50%;
+    font-weight: bolder;
+    font-size: larger;
+    border: none;
+    background: transparent;
+}
+
+.spacing3{
+    text-align: center;
+    width: 50%;
+    font-weight: bolder;
+    font-size: larger;
+    border: none;
+    background: transparent;
+    margin-left: 27px;
+}
+
+
+.panelResultadosOculto{
+    visibility: hidden;
+}
+
+.panelResultadosVisibility{
+    visibility: visible;
+    transition: 1s ease;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 2px 20px 4px;
+}
+
+.ajusteBoton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#clean{
+    height: 30%;
+    width: 14%;
+    border-radius: 10px;
+    border-color: transparent;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
